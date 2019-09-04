@@ -4,4 +4,4 @@ try:
 except ValueError:
   print("Wrong input")
 
-//Why can I input an integer with no ERROR
+#Why can I input an integer with no ERROR
