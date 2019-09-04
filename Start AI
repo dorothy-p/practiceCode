@@ -5,3 +5,4 @@ except ValueError:
   print("Wrong input")
 
 #Why can I input an integer with no ERROR
+#test
