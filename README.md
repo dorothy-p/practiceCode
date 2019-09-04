@@ -1,3 +1,3 @@
 # practiceCode
 
-cout << "Hello World";
+print "Hello World"
