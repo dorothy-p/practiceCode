@@ -1,0 +1,5 @@
+try:
+  startAI = str(input("LET'S CODE AI ALREADY!!! Y or N: "))
+  print(startAI)
+except ValueError:
+  print("Wrong input")
