@@ -1,3 +1,4 @@
 name = input('What is your name?\n')
+Todoekerter
 print('Hi, %s.' % name)
 #WOWOWOWOOWOWOW WHATS WITH THE PERCENT SIGNS ITS BLOWWING MY MIND
