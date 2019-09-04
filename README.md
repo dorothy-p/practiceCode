@@ -1,3 +1,5 @@
 # practiceCode
-Here place code\n
+Here place code
+
+
 cout << "Hello World";
