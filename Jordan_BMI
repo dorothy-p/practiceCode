@@ -1,0 +1,21 @@
+### Body Mass Index
+
+print("Welcome to the Boneless BMI Calculator!\n")
+weight = float(input("Enter your weight(In Pounds)\t"))
+
+while(weight <= 0):
+  weight = float(input("Enter a weight greater than 0\t"))
+
+height = float(input("Enter your height(In Inches)\t"))
+
+while(height <= 0):
+  height = float(input("Enter a height greater than 0\t"))
+
+BMI = weight * 703 / (height**2)
+
+if(BMI <= 18.5):
+  print("You are underweight")
+elif(18.5 < BMI and BMI < 25):
+  print("You are optimal weight")
+elif(25 <= BMI):
+  print("You are overweight")
