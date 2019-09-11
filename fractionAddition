@@ -1,0 +1,19 @@
+import os
+import math
+import time
+
+
+numerator = 1
+denominator = 30
+theanswer = 0
+
+
+for i in range(30):
+  print("  " + str(numerator))
+  print ("---- +")
+  print("  " + str(denominator) + "\n")
+  theanswer = theanswer + (numerator/denominator)
+  numerator = numerator + 1
+  denominator = denominator - 1
+
+print("final answer is " + str(theanswer))
