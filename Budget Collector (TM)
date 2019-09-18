@@ -1,0 +1,27 @@
+### Budget Collector
+
+print("I'm here to help with your budgeting!")
+
+budget = 0.0
+budgetbase = 0.0
+endcode = 0.0
+
+budgetbase = float(input("What is your budget? "))
+
+while(endcode < 1.0):
+    add = float(input("Did you spend on anything recently? If so, enter the amount. If not, type 0. "))
+    if (add > 0):
+        budget = budget + add
+    elif (add == 0):
+        endcode = endcode + 1.0
+    else:
+        print("Fuck off.")
+        break
+        
+if (budgetbase < budget):
+    print("You're over budget!")
+elif (budgetbase == budget):
+    print("You're directly on budget!")
+else:
+    print("You're under budget!")
+    
