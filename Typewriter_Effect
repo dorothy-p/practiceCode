@@ -1,0 +1,30 @@
+#Not Original Code
+#Testing Typewriter Effect
+
+
+
+# in order to use sleep function
+from time import sleep
+
+#in order to use sys object
+import sys
+
+#Gets input and prompts user
+userInput = input("Enter the word for typewriter effect: "); 
+
+#Runs once for each charcter in userInput string
+for x in userInput:
+
+ # prints the charcter 
+ # places the next charcter in the next character space (end='')
+ # NOTE: editting end= changes spacing
+  
+  print(x, end='')
+
+  #prints each character to the console individually before loop ends
+
+  sys.stdout.flush()
+
+  #cause program to wait argument time in seconds
+
+  sleep(0.1)
