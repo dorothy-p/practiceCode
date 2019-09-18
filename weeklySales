@@ -1,0 +1,19 @@
+#By Alexander
+sale1 = 0
+sale2 = 0
+sale3 = 0
+sale4 = 0
+sale5 = 0
+sale6 = 0
+sale7 = 0
+
+total = 0
+
+weeklySales = [];
+
+for i in range(7):
+  weeklySales.append(int(input("Revenue for day " + str(i + 1) + ": ")))
+  total += weeklySales[i]
+  i += 1
+
+print("the store made a total of $" + str(round(total, 2)) )
