@@ -1,0 +1,10 @@
+# Edward Perez
+print("Input sales figures\n\n");
+sales = [];
+total = 0;
+
+for x in range(7):
+    sales.append(int(input("\nEnter sales for day " + str(x + 1) + ": $")))
+    total += sales[x];
+
+print("\n\nTotal sales were $" + str(total));
