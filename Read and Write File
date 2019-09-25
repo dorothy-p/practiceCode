@@ -1,0 +1,14 @@
+myFile= open("complain.txt", "w+")
+myFile.write("WHY AREN'T YOU HERE")
+myFile.close()
+
+myFile = open("complain.txt", "a")
+myFile.write("\nSERIOUSLY WHY CAN'T U COME TODAY\n")
+myFile.write("COME BACK WE NEED YOU\n")
+myFile.close()
+
+myFile = open("complain.txt", "r")
+if myFile.mode == 'r':
+  message = myFile.read()
+  print(message)
+myFile.close()
